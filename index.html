@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calcolator</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <form action="">
+        <div class="days">
+          <label for="day">DAY</label>
+          <input
+            type="number"
+            class="day"
+            placeholder="DD"
+            id="day"
+            maxlength="2"
+          />
+          <p class="required daysPara">The Felied Is Required</p>
+          <p class="Valid daysParaValid">Must Be A Valid Date</p>
+        </div>
+        <div class="months">
+          <label for="month">MONTH</label>
+          <input
+            type="number"
+            class="month"
+            placeholder="MM"
+            id="month"
+            maxlength="2"
+          />
+          <p class="required monthsPara">The Felied Is Required</p>
+          <p class="Valid monthsParaValid">Must Be A Valid Date</p>
+        </div>
+        <div class="years">
+          <label for="year">YEAR</label>
+          <input
+            type="number"
+            class="year"
+            placeholder="YYYY"
+            id="year"
+            maxlength="4"
+          />
+          <p class="required yearsPara">The Felied Is Required</p>
+          <p class="Valid yearsParaValid">Must Be A Valid Date</p>
+        </div>
+        <i class="fa-solid fa-arrow-down sub"></i>
+      </form>
+      <div>
+        <div class="yearsDiv">
+          <span>--</span>
+          years
+        </div>
+        <div class="monthsDiv">
+          <span>--</span>
+          months
+        </div>
+        <div class="daysDiv">
+          <span>--</span>
+          days
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
